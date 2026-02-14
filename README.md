@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 广州景昭科技股份有限公司 | Jingzhao Tech
 
-# Run and deploy your AI Studio app
+公司介绍网站，基于 React + Vite + Tailwind CSS 构建。
 
-This contains everything you need to run your app locally.
+## 本地运行
 
-View your app in AI Studio: https://ai.studio/apps/drive/1WxKJFHgzB8-CpX3gyXbvfJ5jP_0fBsdU
+**前置条件：** Node.js
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+1. 安装依赖：
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. 启动开发服务器：
    `npm run dev`
+3. 打开浏览器访问 `http://127.0.0.1:3000`
+
+## 构建
+
+```bash
+npm run build
+```
