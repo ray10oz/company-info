@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
         <div className="pt-6 sm:pt-8 border-t border-zinc-800 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <p className="leading-relaxed">Copyright © {new Date().getFullYear()} 广州景昭科技股份有限公司 (Guangzhou Jingzhao Technology Co., Ltd.) 保留所有权利。</p>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-white">粤ICP备00000000号</a>
+            <a href="#" className="hover:text-white">粤ICP备00000001号</a>
           </div>
         </div>
       </div>
